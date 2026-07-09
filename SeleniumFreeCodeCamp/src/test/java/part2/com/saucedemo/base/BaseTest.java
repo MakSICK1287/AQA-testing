@@ -1,10 +1,8 @@
 package part2.com.saucedemo.base;
 
-import com.saucedemo.pages.BasePage;
+import com.base.BasePage;
 import com.saucedemo.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
