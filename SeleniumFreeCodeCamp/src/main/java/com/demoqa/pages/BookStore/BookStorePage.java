@@ -1,4 +1,4 @@
-package com.demoqa.pages.Forms;
+package com.demoqa.pages.BookStore;
 
 import com.demoqa.pages.HomePage;
 
