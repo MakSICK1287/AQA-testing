@@ -17,7 +17,7 @@ public class HomePage extends BasePage {
 
 
     public BookStorePage goToBookStore(){
-        scrollToElementJS(bookStoreCard);
+//        scrollToElementJS(bookStoreCard);
         delay(2000);
         click(bookStoreCard);
         return new BookStorePage();

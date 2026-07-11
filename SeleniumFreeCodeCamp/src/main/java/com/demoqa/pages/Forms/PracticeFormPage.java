@@ -88,7 +88,11 @@ public class PracticeFormPage extends FormsPage {
         }
     }
 
-
+    private By submitButton = By.id("submit");
+    public void clickSubmitButton(){
+//        scrollToElementJS(submitButton);
+        click(submitButton);
+    }
 
 
 
