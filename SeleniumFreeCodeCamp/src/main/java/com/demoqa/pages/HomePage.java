@@ -29,7 +29,7 @@ public class HomePage extends BasePage {
     }
 
     public ElementsPage goToElements(){
-        scrollToElementJS(elementsPageCard);
+//        scrollToElementJS(elementsPageCard);
         delay(2000);
         click(elementsPageCard);
         return new ElementsPage();
