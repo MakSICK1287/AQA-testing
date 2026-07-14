@@ -22,4 +22,13 @@ public class AlertsTest extends BaseTest {
         String actualResult = alertsPage.getConfirmText();
         Assert.assertTrue(actualResult.contains("Cancel"), "Actual Result Does NOT Contain 'Cancel'");
     }
+    public void testPromptAlert(){
+        String name = "Max";
+        var alertsPage = homePage.goToAFWPage().clickAlertsMenu();
+        alertsPage.clickPromptButton();
+        setAlertText(name);
+        acceptAlert();
+        String actualResult = alertsPage.getPromptAlertResult();
+        Assert.assertTrue(actualResult.contains(name));
+    }
 }
