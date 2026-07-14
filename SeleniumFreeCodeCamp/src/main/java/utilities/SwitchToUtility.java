@@ -39,4 +39,8 @@ public class SwitchToUtility extends Utility {
      public static void switchToDefaultContent(){
          switchTo().defaultContent();
      }
+
+     public static void switchToWindow(String handle){
+         switchTo().window(handle);
+     }
 }
